@@ -20,9 +20,9 @@ int linearSearch(int arr[], int n, int key)
 int main()
 {
     // Example array and key to search for
-    int arr[] = {10, 20, 30, 40, 50};
+    int arr[] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
     int n = sizeof(arr) / sizeof(arr[0]); // Size of the array
-    int key = 30;                         // Key to search for
+    int key = 60;                         // Key to search for
 
     int result = linearSearch(arr, n, key);
 
